@@ -25,8 +25,8 @@ public class EX1 {
 		} else {
 			numaleatorio();
 		}
-		} catch (Exception e) {
-			System.out.println(e);
+		} catch (InputMismatchException e) {
+			System.out.println("No puedes introducir letras");
 			numaleatorio();
 		}
 	}
